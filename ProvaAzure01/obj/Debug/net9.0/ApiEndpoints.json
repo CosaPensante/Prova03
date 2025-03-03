@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ProvaAzure01.Controllers.UtenteController",
+    "Method": "GetAll",
+    "RelativePath": "api/Utente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaAzure01.Controllers.UtenteController",
+    "Method": "Create",
+    "RelativePath": "api/Utente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ProvaAzure01.DTOs.UtenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaAzure01.Controllers.UtenteController",
+    "Method": "GetPrevisioni",
+    "RelativePath": "api/Utente/{email}/Meteo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaAzure01.Controllers.UtenteController",
+    "Method": "NuovoPrefe",
+    "RelativePath": "api/Utente/NuovoPrefe",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prefe",
+        "Type": "ProvaAzure01.DTOs.CittaPreferitaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
